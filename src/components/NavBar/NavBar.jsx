@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <div className="navbar__icons">
-      <InstagramWordIcon />
+        <InstagramWordIcon />
       </div>
       <div className="navbar__icons">
         <HomeIcon />
@@ -22,7 +22,7 @@ const NavBar = () => {
       <div className="navbar__icons">
         <AddIcon />
       </div>
-      <div className="navbar__icons">  
+      <div className="navbar__icons">
         <CompassIcon />
       </div>
       <div className="navbar__icons">
