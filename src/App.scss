@@ -1,0 +1,8 @@
+@use "./assets/sass/variables" as *;
+@use "./assets/sass/typography" as *;
+
+.app {
+  &__profile {
+    padding: 0.625rem;
+  }
+}
