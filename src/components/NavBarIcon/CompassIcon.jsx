@@ -3,8 +3,8 @@ import React from "react";
 const CompassIcon = () => {
   return (
     <svg
-      width="26px"
-      height="26px"
+      width="22px"
+      height="22px"
       viewBox="0 0 1024 1024"
       xmlns="http://www.w3.org/2000/svg"
     >
