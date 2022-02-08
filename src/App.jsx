@@ -8,7 +8,7 @@ const App = () => {
     <div className="app">
       <NavBar />
       <div className="app__profile">
-        <HeaderDetail username="prettyCat"/>
+        <HeaderDetail username="prettyCat" />
         <Bio
           name="pretty_cat"
           bio="hello"
