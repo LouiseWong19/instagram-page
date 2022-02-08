@@ -1,14 +1,15 @@
 import React from "react";
 import "./HeaderDetail.scss";
 import ProfilePicture from "../ProfilePicture/ProfilePicture";
+import user from "../../assets/data/data";
 
 const HeaderDetail = (props) => {
   const { username } = props;
   return (
     <div className="header-detail">
       <ProfilePicture
-        picture="https://placekitten.com/77/77"
-        alt="profile pic"
+        image={user.imageSrc}
+        alt={user.alt}
       />
       <div className="header-detail__name">
         <h2>{username}</h2>

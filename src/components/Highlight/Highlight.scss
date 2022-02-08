@@ -2,8 +2,17 @@
 @use "../../assets/sass/typography" as *;
 
 .highlight{
-  padding: 0.875rem;
-  p{
-    font-size: 0.5rem;
+  padding: 0.625rem;
+  display: flex;
+  &__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 5.4rem;
+    width: 4.5rem;
+     p{
+    font-size: 0.75rem;
   }
+  }
+ 
 }

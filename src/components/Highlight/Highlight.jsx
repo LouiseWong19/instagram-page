@@ -3,11 +3,20 @@ import ProfilePicture from '../ProfilePicture/ProfilePicture';
 import "./Highlight.scss";
 
 const Highlight = (props) => {
-  const {highlight, caption} = props
-  return <div className='highlight'>
-    <ProfilePicture picture={highlight} />
-    <p>{caption}</p>
-  </div>;
+  const {user} = props
+  return (
+  <div className='highlight'>
+    {user.highlight.map((highlights)=>{
+      return  <div className='highlight__item'>
+        <ProfilePicture image={highlights.imageSrc} />
+        <p>{highlights.text}</p>
+        </div>
+    })}
+
+
+
+  </div>
+  )
 };
 
 export default Highlight;
