@@ -13,10 +13,13 @@ const HeaderDetail = (props) => {
       <div className="header-detail__name">
         <h2>{username}</h2>
         <div className="header-detail__button">
-          <button typeof="button" className="follow-btn">Follow</button>
-        <button typeof="button" className="more-btn">˅</button>
+          <button typeof="button" className="follow-btn">
+            Follow
+          </button>
+          <button typeof="button" className="more-btn">
+            ˅
+          </button>
         </div>
-        
       </div>
     </div>
   );

@@ -5,30 +5,30 @@
   display: flex;
   margin: 1rem;
   gap: 1.25rem;
-  &__name{
+  &__name {
     display: flex;
     width: 100%;
     flex-direction: column;
-    .header-detail__button{
+    .header-detail__button {
       margin-top: 0.875rem;
       display: flex;
       gap: 0.625rem;
-      .follow-btn, .more-btn{
-      padding: 0.25rem 0.75rem;
-      background-color: goldenrod;
-      color: white;
-      font-weight: 600;
-      border-radius: 0.188rem;
-      line-height: 1.625rem;
-      border: none;
+      .follow-btn,
+      .more-btn {
+        padding: 0.25rem 0.75rem;
+        background-color: goldenrod;
+        color: white;
+        font-weight: 600;
+        border-radius: 0.188rem;
+        line-height: 1.625rem;
+        border: none;
+      }
+      .follow-btn {
+        width: 100%;
+      }
+      .more-btn {
+        width: 15%;
+      }
     }
-    .follow-btn{
-      width: 100%;
-    }
-    .more-btn{
-      width: 15%;
-    }
-    }
- 
   }
 }
