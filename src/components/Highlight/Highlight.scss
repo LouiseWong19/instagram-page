@@ -1,0 +1,9 @@
+@use "../../assets/sass/variables" as *;
+@use "../../assets/sass/typography" as *;
+
+.highlight{
+  padding: 0.875rem;
+  p{
+    font-size: 0.5rem;
+  }
+}

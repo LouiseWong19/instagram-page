@@ -1,6 +1,7 @@
 import "./App.scss";
 import Bio from "./components/Bio/Bio";
 import HeaderDetail from "./components/HeaderDetail/HeaderDetail";
+import Highlight from "./components/Highlight/Highlight";
 import NavBar from "./components/NavBar/NavBar";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
           bio="hello"
           website="https://www.google.co.uk/"
         />
+        <Highlight highlight="https://placekitten.com/56/56" caption="cat moment"/>
       </div>
     </div>
   );

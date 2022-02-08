@@ -17,7 +17,7 @@ const HeaderDetail = (props) => {
             Follow
           </button>
           <button typeof="button" className="more-btn">
-            ˅
+            v
           </button>
         </div>
       </div>
