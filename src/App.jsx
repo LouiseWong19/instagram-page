@@ -11,12 +11,8 @@ const App = () => {
       <NavBar />
       <div className="app__profile">
         <HeaderDetail username={user.username} />
-        <Bio
-          name={user.name}
-          bio={user.biography}
-          website={user.website}
-        />
-        <Highlight user={user}/>
+        <Bio name={user.name} bio={user.biography} website={user.website} />
+        <Highlight user={user} />
       </div>
     </div>
   );

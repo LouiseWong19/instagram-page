@@ -1,18 +1,17 @@
 @use "../../assets/sass/variables" as *;
 @use "../../assets/sass/typography" as *;
 
-.highlight{
+.highlight {
   padding: 0.625rem;
   display: flex;
-  &__item{
+  &__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 5.4rem;
     width: 4.5rem;
-     p{
-    font-size: 0.75rem;
+    p {
+      font-size: 0.75rem;
+    }
   }
-  }
- 
 }
