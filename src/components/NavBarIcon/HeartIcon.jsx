@@ -4,10 +4,8 @@ const HeartIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      x="0px"
-      y="0px"
-      width="26px"
-      height="26px"
+      width="22px"
+      height="22px"
       viewBox="0 0 485.3 485.3"
     >
       <path
