@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="App">
       <NavBar />
-      <Bio name="pretty_cat" bio="hello" website="#"/>
+      <Bio name="pretty_cat" bio="hello" website="#" />
     </div>
   );
 };
