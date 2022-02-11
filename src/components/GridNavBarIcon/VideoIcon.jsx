@@ -4,11 +4,8 @@ const VideoIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-      role="img"
-      width="1em"
-      height="1em"
-      preserveAspectRatio="xMidYMid meet"
+      width="26px"
+      height="26px"
       viewBox="0 0 48 48"
     >
       <g

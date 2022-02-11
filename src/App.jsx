@@ -5,6 +5,7 @@ import Highlight from "./components/Highlight/Highlight";
 import NavBar from "./components/NavBar/NavBar";
 import user from "./assets/data/data.js";
 import ProfileDetail from "./components/ProfileDetail/ProfileDetail";
+import GridNavBar from "./components/GridNavBar/GridNavBar";
 
 const App = () => {
   return (
@@ -21,6 +22,9 @@ const App = () => {
           followers={user.followers}
           following={user.following}
         />
+      </div>
+      <div className="app__posts">
+        <GridNavBar />
       </div>
     </div>
   );

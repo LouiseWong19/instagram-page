@@ -1,2 +1,12 @@
 @use "../../assets/sass/variables" as *;
 @use "../../assets/sass/typography" as *;
+
+.grid-navbar{
+  display: flex;
+  color: $title-color;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.625rem;
+  border: 1px solid $border-color;
+  border-top-style: none;
+}
