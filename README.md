@@ -1,4 +1,4 @@
-# Instagram
+# Instagram :camera:
 
 ### Author - Louise Wong
 
