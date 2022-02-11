@@ -7,8 +7,18 @@
   justify-content: space-around;
   border: 1px solid $border-color;
   height: 3.75rem;
-  &__icons {
+  &__icons,
+  &__profile-icon {
     display: flex;
     align-items: center;
+  }
+  &__profile-icon {
+    .profile-picture {
+      width: 1.5rem;
+      height: 1.5rem;
+      img {
+        width: 100%;
+      }
+    }
   }
 }

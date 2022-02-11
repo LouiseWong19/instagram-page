@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar/NavBar";
 import user from "./assets/data/data.js";
 import ProfileDetail from "./components/ProfileDetail/ProfileDetail";
 import GridNavBar from "./components/GridNavBar/GridNavBar";
+import Posts from "./components/Posts/Posts";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       </div>
       <div className="app__posts">
         <GridNavBar />
+        <Posts user={user} />
       </div>
     </div>
   );
