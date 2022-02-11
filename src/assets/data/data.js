@@ -19,6 +19,14 @@ const user = {
   posts: "16,889",
   followers: "13.1m",
   following: "7",
+  post:[
+    {
+      imageSrc: "https://placekitten.com/140/140",
+      imageSrc: "https://placekitten.com/140/140",
+      imageSrc: "https://placekitten.com/140/140",
+      imageSrc: "https://placekitten.com/140/140"
+    }
+  ]
 };
 
 export default user;
