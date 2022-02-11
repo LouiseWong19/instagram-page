@@ -1,13 +1,13 @@
 @use "../../assets/sass/variables" as *;
 @use "../../assets/sass/typography" as *;
 
-.posts{
+.posts {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 0.3rem;
-  &__picture{
-    img{
+  &__picture {
+    img {
       height: 100%;
       width: 100%;
     }
