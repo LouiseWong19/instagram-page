@@ -30,7 +30,10 @@ const NavBar = () => {
         <HeartIcon />
       </div>
       <div className="navbar__profile-icon">
-        <ProfilePicture image="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg" alt="my profile picture" />
+        <ProfilePicture
+          image="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
+          alt="my profile picture"
+        />
       </div>
     </div>
   );
