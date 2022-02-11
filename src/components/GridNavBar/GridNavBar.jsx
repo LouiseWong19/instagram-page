@@ -6,12 +6,14 @@ import VideoIcon from "../GridNavBarIcon/VideoIcon";
 import "./GridNavBar.scss";
 
 const GridNavBar = () => {
-  return <div className="grid-navbar">
-    <GridIcon/>
-    <VideoIcon />
-    <PlayIcon />
-    <TagIcon />
-  </div>;
+  return (
+    <div className="grid-navbar">
+      <GridIcon />
+      <VideoIcon />
+      <PlayIcon />
+      <TagIcon />
+    </div>
+  );
 };
 
 export default GridNavBar;
