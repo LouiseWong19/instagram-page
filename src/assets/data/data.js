@@ -16,6 +16,9 @@ const user = {
       text: "On Netflix!",
     },
   ],
+  posts: "16,889",
+  followers: "13.1m",
+  following: "7",
 };
 
 export default user;
