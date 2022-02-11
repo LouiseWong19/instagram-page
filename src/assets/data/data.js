@@ -8,10 +8,12 @@ const user = {
   website: "https://www.google.co.uk/",
   highlight: [
     {
+      id: "1",
       imageSrc: "https://placekitten.com/56/56",
       text: "FosterFriday",
     },
     {
+      id: "2",
       imageSrc: "https://placekitten.com/56/56",
       text: "On Netflix!",
     },
