@@ -5,6 +5,7 @@ import HeartIcon from "../NavBarIcon/HeartIcon";
 import HomeIcon from "../NavBarIcon/HomeIcon";
 import InstagramWordIcon from "../NavBarIcon/InstagramWordIcon";
 import SendIcon from "../NavBarIcon/SendIcon";
+import ProfilePicture from "../ProfilePicture/ProfilePicture";
 import "./NavBar.scss";
 
 const NavBar = () => {
@@ -27,6 +28,9 @@ const NavBar = () => {
       </div>
       <div className="navbar__icons">
         <HeartIcon />
+      </div>
+      <div className="navbar__profile-icon">
+        <ProfilePicture image="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg" alt="my profile picture" />
       </div>
     </div>
   );
